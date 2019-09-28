@@ -1,0 +1,143 @@
+.container-fluid
+ {
+  padding-top:50px;
+  margin-top: -25px;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../../assets/home.jpg");
+}
+.hello-message-1{
+  width: 6em;
+  -webkit-animation: blinktextcurser 1s steps(50) 2 normal, typewriter 1.5s steps(30) 0.5s 1 normal both;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hello-message-2{
+  width: 15em;
+  -webkit-animation:  blinktextcurser 1s steps(50) 2 2s normal, typewriter2 2s steps(30) 2s 1 normal both;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hello-message-3{
+  width: 12em;
+  -webkit-animation:blinktextcurser 1s steps(50) infinite 4s normal, typewriter3 2s steps(30) 4s 1 normal both;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media screen and (min-width: 768px)
+{
+  .hello-message-1{
+    font-size: 50px;
+    padding-left: 50px;
+  }
+
+  .hello-message-2{
+    font-size: 35px;
+    padding-left: 50px;
+  }
+  .hello-message-3{
+    font-size: 35px;
+    padding-left: 50px;
+  }
+  .link-1{
+    margin-top: 200px;
+  }
+  .link-2{
+    margin-top: 15px;
+  }
+  .button-link{
+    margin-left: 50px;
+  }
+
+}
+@media screen and (max-width: 768px)
+{
+  .hello-message-1{
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .hello-message-2{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .hello-message-3{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .button-link{
+    margin: 10px;
+  }
+}
+.hello-message-1, .hello-message-3{
+  color:white;
+  font-weight: 500;
+}
+.hello-message-2{
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.692);
+}
+.button-link{
+  color:white;
+  text-align: center;
+  border: solid 1px white;
+  width: 200px;
+  padding: 10px;
+  transition: 1s;
+}
+.button-link:hover{
+  color:rgba(255, 0, 0, 0.425);
+  border:solid 2px rgba(255, 0, 0, 0.425);
+  width:120px;
+  cursor: pointer;
+}
+.link-1,.link-2{
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    width:120px;;
+  }
+  to{
+    opacity: 1;
+    width:200px;
+  }
+}
+@keyframes typewriter{
+  from {
+    width: 0px;
+  }
+  to
+  {
+    width: 6em;
+  }
+}
+@keyframes typewriter2{
+  from {
+    width: 0px;
+  }
+  to
+  {
+    width: 15em;
+  }
+}
+@keyframes typewriter3{
+  from {
+    width: 0px;
+  }
+  to
+  {
+    width: 12em;
+  }
+}
+@keyframes blinktextcurser{
+  from {
+     border-right: 0px;
+  }
+  to{
+    border-right: 1px solid white ;
+  }
+}

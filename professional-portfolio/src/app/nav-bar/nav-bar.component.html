@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="navbar_brand mt-lg-4" [routerLink]="['/home']" routerLinkActive="display">
+    <div class="profile_image"></div>
+    <div class="name mt-3">DUY TRUONG</div>
+    <div class="field ">FRONT-END WEB DEVELOPER</div>
+    <hr>
+  </div>
+  <div class="menu d-flex">
+    <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#collapsibleNavbar" #menu>
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="d-lg-none d-flex ml-auto">
+        <span class="ml-3"><a href="mailto:duytruong169@gmail.com" target="_blank"><i class="fa fa-envelope icon"></i></a></span>
+        <span class ="ml-3"><a href="https://github.com/duytruong0916" target="_blank"><i class="fa fa-github icon" ></i></a></span>
+        <span class ="ml-3"><a href="https://www.facebook.com/nhatduy.truong.90" target="_blank"><i class="fa fa-facebook icon"></i></a></span>
+        <span class ="ml-3"><a href="https://www.instagram.com/nhatduy.truong.90/" target="_blank"><i class="fa fa-instagram icon"></i></a></span>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <hr class="d-lg-none">
+    <div class="navbar-nav mt-lg-3 d-lg-block d-none w-100">
+      <div class="item mt-4 mt-lg-2 ml-lg-4"  [routerLink]="['/portfolio']" routerLinkActive="active-link">PORTFOLIO
+        <span  [routerLink]="['/portfolio']" routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i></span>
+      </div>
+      <div class="item mt-4 mt-lg-2 ml-lg-4" [routerLink]="['/offer']" routerLinkActive="active-link" >MY OFFER
+        <span [routerLink]="['/offer']"  routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
+      </div>
+      <div class="item mt-4 mt-lg-2  ml-lg-4" [routerLink]="['/contact']" routerLinkActive="active-link">CONTACT ME
+        <span [routerLink]="['/contact']"  routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
+      </div>
+      <div class="item mt-4 mt-lg-2 ml-lg-4" [routerLink]="['/resume']" routerLinkActive="active-link"  >MY RESUME
+        <span [routerLink]="['/resume']" routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
+      </div>
+    </div>
+    <div class="navbar-nav mt-lg-3 d-lg-none d-block w-100">
+        <div class="item mt-4 mt-lg-2 ml-lg-4"  [routerLink]="['/portfolio']" routerLinkActive="active-link" (click)="menu.click()">PORTFOLIO</div>
+        <div class="item mt-4 mt-lg-2  ml-lg-4" [routerLink]="['/offer']" routerLinkActive="active-link" (click)="menu.click()">MY OFFER
+        </div>
+        <div class="item mt-4 mt-lg-2  ml-lg-4" [routerLink]="['/contact']" routerLinkActive="active-link"(click)="menu.click()" >CONTACT ME
+        </div>
+        <div class="item mt-4 mt-lg-2 ml-lg-4" [routerLink]="['/resume']" routerLinkActive="active-link"  (click)="menu.click()">MY RESUME
+        </div>
+      </div>
+  </div>
+  <div class="mt-4 mt-lg-5 ml-lg-4 d-none d-lg-block last">
+    <div class="contact">Get In Touch</div>
+    <span class= "mt-2"><a href="mailto:duytruong169@gmail.com" target="_blank"><i class="fa fa-envelope icon mt-2"></i></a></span>
+    <span class ="ml-3"><a href="https://github.com/duytruong0916" target="_blank"><i class="fa fa-github icon" ></i></a></span>
+    <span class ="ml-3"><a href="https://www.facebook.com/nhatduy.truong.90" target="_blank"><i class="fa fa-facebook icon"></i></a></span>
+    <span class ="ml-3"><a href="https://www.instagram.com/nhatduy.truong.90/" target="_blank"><i class="fa fa-instagram icon"></i></a></span>
+  </div>
+</nav>
+<br>

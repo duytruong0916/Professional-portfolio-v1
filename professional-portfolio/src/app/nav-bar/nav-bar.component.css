@@ -1,0 +1,144 @@
+@media screen and (min-width: 990px) {
+  .field {
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  .navbar {
+    background-color: rgb(26, 72, 99);
+    width: 24%;
+    position: fixed;
+    height: 100vh;
+    display: block;
+  }
+  .display{
+   display:block;
+  }
+  .profile_image {
+    width: 170px;
+    height: 170px;
+  }
+  .last{
+    padding-bottom: 50px;
+  }
+  .item{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .field {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  .navbar {
+    background-color: rgb(44, 109, 146);
+    width: 100%;
+    position: sticky;
+    height: auto;
+    display: block;
+  }
+  .display{
+    display:none;
+  }
+  .profile_image {
+    width: 140px;
+    height: 140px;
+  }
+.navbar_brand{
+  margin-top: 35px;
+}
+.item{
+  font-size: 13px;
+}
+}
+.navbar {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow: auto;
+}
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+button,.fa-bars {
+  outline: none;
+  color: white;
+  border: none;
+}
+.profile_image {
+  border-radius: 100%;
+  background-size: cover;
+  margin:auto;
+  background-image: url('../../assets/newprofile.jpg');
+}
+
+.navbar_brand {
+  color: white;
+  widows: 100%;
+  text-align: center;
+  outline: none;
+}
+.navbar_brand:hover{
+  cursor: pointer;
+}
+.name {
+  font-size: 22px;
+  font-weight: 500;
+}
+hr {
+  height: 0.5px;
+  background-color: white;
+  border: none;
+}
+.item{
+  width:100%;
+  color: rgb(168, 161, 161);
+  font-weight: light;
+  pointer-events: unset;
+  outline: none;
+  margin-bottom: 20px;
+}
+.item:hover{
+  color: white;
+  font-size: 15.5px;
+  cursor: pointer;
+  opacity: 1 !important;
+
+}
+i{
+  font-size: 20px;
+  color: rgb(187, 173, 173);
+}
+.active-link{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contact{
+  color: rgb(187, 173, 173);
+  margin-top: 50px;
+  font-size: 14px;
+}
+i:hover{
+  color: white;
+  cursor: pointer;
+  font-size: 20.5px;
+}
+.arrow{
+  margin-right:5px;
+  float:right;
+  color: white;
+  transform: rotate(180deg);
+  display: none;
+}
+
+.display-arrow
+{
+  display: block;
+}
+.no-display-arrow{
+  display: none;
+}
+
+.fa-play{
+  color: white;
+  font-size: 17px;
+}

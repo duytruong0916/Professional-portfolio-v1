@@ -1,0 +1,49 @@
+.container-fluid{
+  margin-top: -25px;
+  padding-bottom: 50px;
+  height: auto;
+  background-color:rgba(255, 255, 255, 0.774);
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px){
+  .container-fluid{
+    padding-left: 65px;
+    float: left;
+    width: 85%;
+    font-size: 19px;
+  }
+  .title{
+    font-size: 40px;
+    color:rgba(0, 0, 0, 0.623);
+  }
+  .subtile{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px){
+  .title{
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.623);
+  }
+  .subtile{
+    font-size: 30px;
+  }
+}
+.title{
+  font-weight: 400;
+}
+.bold{
+  font-weight: 500;
+}
+.hightlight ,.subtile{
+  font-weight: 500;
+  color: rgb(184, 32, 32);
+}
+.italic{
+  font-style: italic;
+  font-size: 20px;
+}
+hr{
+  background-color: black;
+}

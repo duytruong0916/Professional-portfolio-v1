@@ -1,0 +1,14 @@
+@media screen and (max-width: 990px){
+  main{
+    width: 100%;
+  }
+}
+@media screen and (min-width:990px){
+  main{
+    width: 76%;
+    margin-left: 24%;
+  }
+}
+main{
+  font-family: "Roboto", sans-serif;
+}
