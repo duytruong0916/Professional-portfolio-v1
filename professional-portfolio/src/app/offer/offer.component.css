@@ -25,6 +25,7 @@
   .title{
     font-size: 30px;
     color:rgba(0, 0, 0, 0.623);
+    text-align: center;
   }
   .subtile{
     font-size: 30px;
@@ -43,7 +44,4 @@
 .italic{
   font-style: italic;
   font-size: 20px;
-}
-hr{
-  background-color: black;
 }

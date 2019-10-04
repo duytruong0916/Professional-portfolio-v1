@@ -28,8 +28,9 @@
 @media screen and (max-width: 768px){
   .title{
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
     color:rgba(0, 0, 0, 0.623);
+    text-align: center;
   }
   .sub-title{
     font-weight: lighter;
