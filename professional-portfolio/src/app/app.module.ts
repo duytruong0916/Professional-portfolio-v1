@@ -15,6 +15,7 @@ import { PictureComponent } from './picture/picture.component';
 import { ArticleComponent } from './article/article.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AppService } from './app.service';
+import { StoringAppComponent } from './projects/storing-app/storing-app.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AppService } from './app.service';
     ResumeComponent,
     PictureComponent,
     ArticleComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    StoringAppComponent
   ],
   imports: [
     BrowserModule,

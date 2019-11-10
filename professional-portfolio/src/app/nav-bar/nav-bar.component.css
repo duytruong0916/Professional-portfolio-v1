@@ -63,11 +63,11 @@ button,.fa-bars {
   color: white;
   border: none;
 }
-.profile_image {
+.profile-image {
   border-radius: 100%;
   background-size: cover;
   margin:auto;
-  background-image: url('../../assets/newprofile.jpg');
+  width: 60%;
 }
 
 .navbar_brand {

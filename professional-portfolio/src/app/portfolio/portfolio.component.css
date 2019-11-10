@@ -1,12 +1,18 @@
-.image1{
+.image-demo{
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('../../assets/images/home.png');
 }
 .timeline-item{
   font-size: 19px;
   font-weight: 300;
+}
+.header{
+  color:black;
+}
+.header:hover{
+  color:rgb(184, 80, 80);
+  cursor: pointer;
 }
 .subtitle{
   font-style: italic;
@@ -15,7 +21,6 @@
   font-size: 30px;
   font-weight: 500;
   -webkit-transform: scale(1, 1.2);
-  color:brown;
 }
 .timeline-time{
   font-size: 15px;
