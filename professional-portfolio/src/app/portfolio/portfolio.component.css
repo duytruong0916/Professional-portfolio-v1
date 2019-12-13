@@ -1,17 +1,31 @@
+.container-fluid{
+  margin-top: -25px;
+  padding-bottom: 50px;
+  height: auto;
+  background-color:rgba(255, 255, 255, 0.774);
+  font-weight: 300;
+  font-size: 16px;
+}
+.header-title{
+  font-weight: 400;
+}
 .image-demo{
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
 }
+a{
+  color:white;
+}
 .timeline-item{
-  font-size: 19px;
   font-weight: 300;
 }
 .header{
-  color:black;
+  color:brown;
+  outline: none;
 }
 .header:hover{
-  color:rgb(184, 80, 80);
+  color:rgba(255, 0, 0, 0.877);
   cursor: pointer;
 }
 .subtitle{
@@ -32,7 +46,27 @@
   font-weight: 500;
   font-weight: 20px;
 }
+.last{
+  margin-bottom: 50px;
+}
+.techs{
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding:10px 10px;
+  background-color:   rgb(49, 127, 172);
+}
+.button-link:hover , .techs:hover{
+  cursor: pointer;
+}
 @media screen and (min-width: 990px){
+  .header-title{
+    color:rgba(0, 0, 0, 0.623);
+    font-size: 40px;
+  }
+  .container-fluid{
+    width: 95%;
+  }
   .timeline-body{
     margin-left: 150px;
     position: relative;
@@ -80,6 +114,11 @@
 }
 @media screen and (max-width: 990px)
 {
+  .header-title{
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.623);
+    text-align: center;
+  }
   .button-link{
     color: white;
     width: 45%;
@@ -92,16 +131,4 @@
     height: 200px;
   }
 }
-.last{
-  margin-bottom: 50px;
-}
-.techs{
-  color: white;
-  text-align: center;
-  margin: 10px;
-  padding:10px 10px;
-  background-color:  rgb(84, 133, 161);
-}
-.button-link:hover , .techs:hover{
-  cursor: pointer;
-}
+

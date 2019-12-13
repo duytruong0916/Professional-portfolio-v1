@@ -2,14 +2,13 @@
   <div class="navbar_brand mt-lg-4" [routerLink]="['/home']" routerLinkActive="display">
     <img src="../../assets/avarta.jpg" alt="Profile image" class="profile-image">
     <div class="name mt-3">DUY TRUONG</div>
-    <div class="field ">FRONT-END WEB DEVELOPER</div>
-    <hr>
+    <div class="field mb-4 ">FRONT-END WEB DEVELOPER</div>
   </div>
   <div class="menu d-flex">
-    <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#collapsibleNavbar" #menu>
+    <button class="navbar-toggler my-2"type="button" data-toggle="collapse" data-target="#collapsibleNavbar" #menu>
         <i class="fa fa-bars"></i>
     </button>
-    <div class="d-lg-none d-flex ml-auto">
+    <div class="d-lg-none d-flex ml-auto my-2">
         <span class="ml-3"><a href="mailto:duytruong169@gmail.com" target="_blank"><i class="fa fa-envelope icon"></i></a></span>
         <span class ="ml-3"><a href="https://github.com/duytruong0916" target="_blank"><i class="fa fa-github icon" ></i></a></span>
         <span class ="ml-3"><a href="https://www.facebook.com/nhatduy.truong.90" target="_blank"><i class="fa fa-facebook icon"></i></a></span>
@@ -17,7 +16,6 @@
     </div>
   </div>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <hr class="d-lg-none">
     <div class="navbar-nav mt-lg-3 d-lg-block d-none w-100">
       <div class="item mt-4 mt-lg-2 ml-lg-4"  [routerLink]="['/portfolio']" routerLinkActive="active-link">PORTFOLIO
         <span  [routerLink]="['/portfolio']" routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i></span>
@@ -28,8 +26,8 @@
       <div class="item mt-4 mt-lg-2  ml-lg-4" [routerLink]="['/contact']" routerLinkActive="active-link">CONTACT ME
         <span [routerLink]="['/contact']"  routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
       </div>
-      <div class="item mt-4 mt-lg-2 ml-lg-4" [routerLink]="['/resume']" routerLinkActive="active-link"  >MY RESUME
-        <span [routerLink]="['/resume']" routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
+      <div class="item mt-4 mt-lg-2 ml-lg-4" routerLinkActive="active-link"  ><a href="assets/files/resume.pdf">MY RESUME</a>
+        <span  routerLinkActive="display-arrow" class="arrow"><i class="fa fa fa-play"></i> </span>
       </div>
     </div>
     <div class="navbar-nav mt-lg-3 d-lg-none d-block w-100">
@@ -38,7 +36,7 @@
         </div>
         <div class="item mt-4 mt-lg-2  ml-lg-4" [routerLink]="['/contact']" routerLinkActive="active-link"(click)="menu.click()" >CONTACT ME
         </div>
-        <div class="item mt-4 mt-lg-2 ml-lg-4" [routerLink]="['/resume']" routerLinkActive="active-link"  (click)="menu.click()">MY RESUME
+        <div class="item mt-4 mt-lg-2 ml-lg-4" routerLinkActive="active-link" (click)="menu.click()"><a href="assets/files/resume.pdf">MY RESUME</a>
         </div>
       </div>
   </div>

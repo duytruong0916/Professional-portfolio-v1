@@ -3,6 +3,9 @@
     font-weight: lighter;
     font-size: 18px;
   }
+  .navbar_brand{
+    border-bottom: solid 0.5px grey;
+  }
   .navbar {
     background-color: rgb(26, 72, 99);
     width: 24%;
@@ -25,6 +28,10 @@
   }
 }
 @media screen and (max-width: 990px) {
+  .menu{
+    border-top: 0.5px grey solid;
+    border-bottom: 0.5px grey solid;
+  }
   .field {
     font-weight: lighter;
     font-size: 15px;
@@ -60,7 +67,7 @@
 }
 button,.fa-bars {
   outline: none;
-  color: white;
+  color: grey;
   border: none;
 }
 .profile-image {
@@ -83,11 +90,6 @@ button,.fa-bars {
   font-size: 22px;
   font-weight: 500;
 }
-hr {
-  height: 0.5px;
-  background-color: white;
-  border: none;
-}
 .item{
   width:100%;
   color: rgb(168, 161, 161);
@@ -103,10 +105,7 @@ hr {
   opacity: 1 !important;
 
 }
-i{
-  font-size: 20px;
-  color: rgb(187, 173, 173);
-}
+
 .active-link{
   color: white;
   font-size: 15px;
@@ -117,10 +116,13 @@ i{
   margin-top: 50px;
   font-size: 14px;
 }
+i{
+  font-size: 22px;
+  color: rgb(187, 173, 173);
+}
 i:hover{
   color: white;
   cursor: pointer;
-  font-size: 20.5px;
 }
 .arrow{
   margin-right:5px;
@@ -137,8 +139,14 @@ i:hover{
 .no-display-arrow{
   display: none;
 }
-
 .fa-play{
   color: white;
-  font-size: 17px;
+}
+a{
+ text-decoration: none;
+ color: rgb(187, 173, 173);
+}
+a:hover{
+  color: white;
+  cursor: pointer;
 }

@@ -9,6 +9,7 @@ import { ArticleComponent } from './article/article.component';
 import { PictureComponent } from './picture/picture.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { StoringAppComponent } from './projects/storing-app/storing-app.component';
+import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'article', component: ArticleComponent},
   {path: 'picture', component: PictureComponent},
   {path: 'projects/storing-app', component: StoringAppComponent},
+  {path: 'projects/budget-app', component: BudgetAppComponent},
   {path: '',redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent}
 ];
