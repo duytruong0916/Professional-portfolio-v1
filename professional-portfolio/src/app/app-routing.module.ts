@@ -10,6 +10,7 @@ import { PictureComponent } from './picture/picture.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { StoringAppComponent } from './projects/storing-app/storing-app.component';
 import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
+import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'picture', component: PictureComponent},
   {path: 'projects/storing-app', component: StoringAppComponent},
   {path: 'projects/budget-app', component: BudgetAppComponent},
+  {path: 'projects/angubetta', component: AngubettaComponent},
   {path: '',redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent}
 ];

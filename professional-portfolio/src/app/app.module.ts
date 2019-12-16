@@ -17,6 +17,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AppService } from './app.service';
 import { StoringAppComponent } from './projects/storing-app/storing-app.component';
 import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
+import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
     ArticleComponent,
     PagenotfoundComponent,
     StoringAppComponent,
-    BudgetAppComponent
+    BudgetAppComponent,
+    AngubettaComponent
   ],
   imports: [
     BrowserModule,
