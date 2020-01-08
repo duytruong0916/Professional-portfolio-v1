@@ -18,6 +18,7 @@ import { AppService } from './app.service';
 import { StoringAppComponent } from './projects/storing-app/storing-app.component';
 import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
 import { AngubettaComponent } from './projects/angubetta/angubetta.component';
+import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AngubettaComponent } from './projects/angubetta/angubetta.component';
     PagenotfoundComponent,
     StoringAppComponent,
     BudgetAppComponent,
-    AngubettaComponent
+    AngubettaComponent,
+    TimefoxwatchComponent
   ],
   imports: [
     BrowserModule,
