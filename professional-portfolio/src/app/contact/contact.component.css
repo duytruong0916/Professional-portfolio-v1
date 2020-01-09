@@ -1,15 +1,20 @@
 .container-fluid{
   margin-top: -25px;
-  margin-bottom: 40px;
+  padding-bottom: 50px;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.774);
+  background-color:rgba(255, 255, 255, 0.774);
+  font-weight: 300;
   font-size: 16px;
-  padding-bottom: 120px;
 }
 
 @media screen and (min-width: 768px){
+  .container-fluid{
+    padding-left: 65px;
+    float: left;
+    width: 85%;
+    font-size: 16px;
+  }
   .title{
-    margin-top: 40px;
     font-size: 40px;
     color:rgba(0, 0, 0, 0.623);
   }
@@ -42,6 +47,9 @@
     margin-top: 10px;
   }
 
+}
+.title{
+  font-weight: 400;
 }
 .link, a{
   color: brown;
