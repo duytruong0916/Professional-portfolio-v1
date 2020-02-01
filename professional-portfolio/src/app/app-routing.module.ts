@@ -12,6 +12,8 @@ import { StoringAppComponent } from './projects/storing-app/storing-app.componen
 import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
 import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.component';
+import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
+import { AuthenticationComponent } from './projects/authentication/authentication.component';
 
 
 const routes: Routes = [
@@ -25,7 +27,9 @@ const routes: Routes = [
   {path: 'projects/storing-app', component: StoringAppComponent},
   {path: 'projects/timefoxwatch', component: TimefoxwatchComponent},
   {path: 'projects/budget-app', component: BudgetAppComponent},
+  {path: 'projects/portfolio-site', component: PortfolioSiteComponent},
   {path: 'projects/angubetta', component: AngubettaComponent},
+  {path: 'projects/authentication', component: AuthenticationComponent},
   {path: '', redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent}
 ];

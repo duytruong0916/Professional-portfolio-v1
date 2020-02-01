@@ -19,6 +19,8 @@ import { StoringAppComponent } from './projects/storing-app/storing-app.componen
 import { BudgetAppComponent } from './projects/budget-app/budget-app.component';
 import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.component';
+import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
+import { AuthenticationComponent } from './projects/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.comp
     StoringAppComponent,
     BudgetAppComponent,
     AngubettaComponent,
-    TimefoxwatchComponent
+    TimefoxwatchComponent,
+    PortfolioSiteComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

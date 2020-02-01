@@ -64,8 +64,11 @@
     font-size: 20px;
     padding-left: 20px;
   }
-  .button-link{
-    margin: 10px;
+  .link-1{
+    margin-top: 80px;
+  }
+  .link-2{
+    margin-top: 15px;
   }
 }
 .hello-message-1, .hello-message-3{
@@ -87,7 +90,7 @@
 .button-link:hover{
   color:rgba(255, 0, 0, 0.425);
   border:solid 2px rgba(255, 0, 0, 0.425);
-  width:120px;
+  width:180px;
   cursor: pointer;
 }
 .link-1,.link-2{
