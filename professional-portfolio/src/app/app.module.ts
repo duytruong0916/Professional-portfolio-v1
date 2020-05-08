@@ -22,6 +22,7 @@ import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.comp
 import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
 import { AlephComponent } from './projects/aleph/aleph.component';
+import { ScrumstubsComponent } from './projects/scrumstubs/scrumstubs.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AlephComponent } from './projects/aleph/aleph.component';
     TimefoxwatchComponent,
     PortfolioSiteComponent,
     AuthenticationComponent,
-    AlephComponent
+    AlephComponent,
+    ScrumstubsComponent
   ],
   imports: [
     BrowserModule,

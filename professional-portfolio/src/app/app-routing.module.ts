@@ -16,6 +16,7 @@ import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
 import { AlephComponent } from './projects/aleph/aleph.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { ScrumstubsComponent } from './projects/scrumstubs/scrumstubs.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -32,6 +33,7 @@ const routes: Routes = [
   {path: 'projects/angubetta', component: AngubettaComponent},
   {path: 'projects/authentication', component: AuthenticationComponent},
   {path: 'projects/aleph', component: AlephComponent},
+  {path: 'projects/scrumstubs', component: ScrumstubsComponent},
   {path: '', redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent }
 ];
