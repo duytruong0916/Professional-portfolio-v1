@@ -1,7 +1,6 @@
 .container-fluid
  {
   padding-top:50px;
-  margin-top: -25px;
   height: 100vh;
   background-size: cover;
   background-image: url("../../assets/home.jpg");

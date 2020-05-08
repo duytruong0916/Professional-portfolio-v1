@@ -15,11 +15,11 @@ import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.comp
 import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
 import { AlephComponent } from './projects/aleph/aleph.component';
-
+import { BrowserModule } from '@angular/platform-browser';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  {path: 'portfolio', component: PortfolioComponent},
+  {path: 'portfolio', component: PortfolioComponent },
   {path: 'offer', component: OfferComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'resume', component: ResumeComponent},
@@ -33,11 +33,11 @@ const routes: Routes = [
   {path: 'projects/authentication', component: AuthenticationComponent},
   {path: 'projects/aleph', component: AlephComponent},
   {path: '', redirectTo: '/home',pathMatch: 'full' },
-  {path: '**', component: PagenotfoundComponent}
+  {path: '**', component: PagenotfoundComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
