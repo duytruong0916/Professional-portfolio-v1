@@ -14,6 +14,7 @@ import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.component';
 import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
+import { AlephComponent } from './projects/aleph/aleph.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path: 'projects/portfolio-site', component: PortfolioSiteComponent},
   {path: 'projects/angubetta', component: AngubettaComponent},
   {path: 'projects/authentication', component: AuthenticationComponent},
+  {path: 'projects/aleph', component: AlephComponent},
   {path: '', redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent}
 ];

@@ -6,7 +6,7 @@
     margin: 10px;
     padding:10px 10px;
     background-color:  rgb(49, 127, 172);
-    font-size: 19px;
+    font-size: 14px;
     margin-top: 120px;
   }
   .tech-use{
@@ -14,7 +14,7 @@
     margin: 10px;
     padding:10px 10px;
     background-color:  rgb(49, 127, 172);
-    font-size: 19px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 990px){
@@ -25,7 +25,7 @@
     margin: 10px;
     padding:10px 10px;
     background-color:  rgb(49, 127, 172);
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
   }
   .tech-use{
@@ -33,7 +33,7 @@
     margin: 10px;
     padding:10px 10px;
     background-color:  rgb(49, 127, 172);
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .images{

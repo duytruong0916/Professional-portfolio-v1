@@ -21,6 +21,7 @@ import { AngubettaComponent } from './projects/angubetta/angubetta.component';
 import { TimefoxwatchComponent } from './projects/timefoxwatch/timefoxwatch.component';
 import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site.component';
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
+import { AlephComponent } from './projects/aleph/aleph.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AuthenticationComponent } from './projects/authentication/authenticatio
     AngubettaComponent,
     TimefoxwatchComponent,
     PortfolioSiteComponent,
-    AuthenticationComponent
+    AuthenticationComponent,
+    AlephComponent
   ],
   imports: [
     BrowserModule,
