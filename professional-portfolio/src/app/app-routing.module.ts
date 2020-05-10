@@ -17,6 +17,7 @@ import { AuthenticationComponent } from './projects/authentication/authenticatio
 import { AlephComponent } from './projects/aleph/aleph.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ScrumstubsComponent } from './projects/scrumstubs/scrumstubs.component';
+import { EpicsTeamBuilderComponent } from './projects/epics-team-builder/epics-team-builder.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -34,6 +35,7 @@ const routes: Routes = [
   {path: 'projects/authentication', component: AuthenticationComponent},
   {path: 'projects/aleph', component: AlephComponent},
   {path: 'projects/scrumstubs', component: ScrumstubsComponent},
+  {path: 'projects/epicsteambuilder', component: EpicsTeamBuilderComponent},
   {path: '', redirectTo: '/home',pathMatch: 'full' },
   {path: '**', component: PagenotfoundComponent }
 ];

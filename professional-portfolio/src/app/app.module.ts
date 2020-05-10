@@ -23,6 +23,7 @@ import { PortfolioSiteComponent } from './projects/portfolio-site/portfolio-site
 import { AuthenticationComponent } from './projects/authentication/authentication.component';
 import { AlephComponent } from './projects/aleph/aleph.component';
 import { ScrumstubsComponent } from './projects/scrumstubs/scrumstubs.component';
+import { EpicsTeamBuilderComponent } from './projects/epics-team-builder/epics-team-builder.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ScrumstubsComponent } from './projects/scrumstubs/scrumstubs.component'
     PortfolioSiteComponent,
     AuthenticationComponent,
     AlephComponent,
-    ScrumstubsComponent
+    ScrumstubsComponent,
+    EpicsTeamBuilderComponent
   ],
   imports: [
     BrowserModule,
