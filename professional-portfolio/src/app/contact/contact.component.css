@@ -1,62 +1,80 @@
-.container-fluid{
-  padding-bottom: 50px;
-  height: auto;
-  background-color:rgba(255, 255, 255, 0.774);
+.container-fluid {
+  min-height: 100vh;
+  background-color: white;
   font-weight: 300;
   font-size: 16px;
 }
 
-@media screen and (min-width: 768px){
-  .container-fluid{
+@media screen and (min-width: 768px) {
+  .container-fluid {
     padding-left: 65px;
     float: left;
     width: 85%;
     font-size: 16px;
   }
-  .title{
+  .title {
     font-size: 40px;
-    color:rgba(0, 0, 0, 0.623);
+    font-weight: bold;
+    color: black;
   }
-  .sub-title{
-    font-weight: lighter;
-    font-size: 20px;
+  .sub-title {
+    font-weight: bold;
+    font-size: 18px;
   }
-  .git{
+  .git {
     margin-top: 50px;
   }
-  .email, .fb,.last{
+  .email,
+  .fb,
+  .last {
     margin-top: 10px;
   }
-
 }
-@media screen and (max-width: 768px){
-  .title{
+@media screen and (max-width: 768px) {
+  .title {
     margin-top: 20px;
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.623);
+    color: black;
     text-align: center;
   }
-  .sub-title{
-    font-weight: lighter;
+  .sub-title {
+    color: black;
+    font-weight: bold;
   }
-  .git{
+  .git {
     margin-top: 30px;
   }
-  .email, .fb,.last{
+  .email,
+  .fb,
+  .last {
     margin-top: 10px;
   }
-
 }
-.title{
-  font-weight: 400;
+.title {
+  font-weight: bold;
 }
-.link, a{
+.link,
+a {
   color: brown;
 }
-i{
+i {
   margin-right: 5px;
   font-size: 20px;
 }
 .github {
   margin-top: 50px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-link:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 }

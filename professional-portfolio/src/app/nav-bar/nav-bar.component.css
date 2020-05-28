@@ -1,6 +1,6 @@
 @media screen and (min-width: 990px) {
   .profile-image {
-     margin:auto;
+    margin: auto;
     width: 180px;
     height: auto;
     border-radius: 100%;
@@ -9,34 +9,34 @@
     font-weight: lighter;
     font-size: 18px;
   }
-  .navbar_brand{
+  .navbar_brand {
     border-bottom: solid 0.5px grey;
   }
   .navbar {
-    background-color: rgb(26, 72, 99);
-    width: 24%;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 22%;
     position: fixed;
     height: 100vh;
     display: block;
   }
-  .display{
-   display:block;
+  .display {
+    display: block;
   }
-  .last{
+  .last {
     padding-bottom: 50px;
   }
-  .item{
+  .item {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 990px) {
   .profile-image {
-    margin:auto;
+    margin: auto;
     width: 160px;
     height: auto;
     border-radius: 100%;
   }
-  .menu{
+  .menu {
     border-top: 0.5px grey solid;
     border-bottom: 0.5px grey solid;
   }
@@ -45,36 +45,36 @@
     font-size: 15px;
   }
   .navbar {
-    background-color: rgb(44, 109, 146);
+    background-color: rgba(0, 0, 0, 0.85);
     width: 100%;
     position: sticky;
     height: auto;
     display: block;
   }
-  .display{
-    display:none;
+  .display {
+    display: none;
   }
-.navbar_brand{
-  margin-top: 35px;
-}
-.item{
-  font-size: 15px;
-}
+  .navbar_brand {
+    margin-top: 35px;
+  }
+  .item {
+    font-size: 15px;
+  }
 }
 .navbar {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 .navbar::-webkit-scrollbar {
   display: none;
 }
-button,.fa-bars {
+button,
+.fa-bars {
   outline: none;
   color: grey;
   border: none;
 }
-
 
 .navbar_brand {
   color: white;
@@ -82,70 +82,68 @@ button,.fa-bars {
   text-align: center;
   outline: none;
 }
-.navbar_brand:hover{
+.navbar_brand:hover {
   cursor: pointer;
 }
 .name {
   font-size: 22px;
   font-weight: 500;
 }
-.item{
-  width:100%;
+.item {
+  width: 100%;
   color: rgb(168, 161, 161);
   font-weight: light;
   pointer-events: unset;
   outline: none;
   margin-bottom: 20px;
 }
-.item:hover{
+.item:hover {
   color: white;
   font-size: 15.5px;
   cursor: pointer;
   opacity: 1 !important;
-
 }
 
-.active-link{
+.active-link {
   color: white;
   font-size: 15px;
   font-weight: 500;
 }
-.contact{
+.contact {
   color: rgb(187, 173, 173);
   margin-top: 50px;
   font-size: 14px;
 }
-i{
+i {
   font-size: 22px;
   color: rgb(187, 173, 173);
 }
-i:hover{
+i:hover {
   color: white;
   cursor: pointer;
 }
-.arrow{
-  margin-right:5px;
-  float:right;
+.arrow {
+  margin-right: 5px;
+  float: right;
   color: white;
   transform: rotate(180deg);
   display: none;
 }
 
-.display-arrow
-{
+.display-arrow {
   display: block;
 }
-.no-display-arrow{
+.no-display-arrow {
   display: none;
 }
-.fa-play{
+.fa-play {
   color: white;
 }
-a{
- text-decoration: none;
- color: rgb(187, 173, 173);
+a {
+  text-decoration: none;
+  color: rgb(187, 173, 173);
 }
-a:hover{
+a:hover {
   color: white;
   cursor: pointer;
 }

@@ -1,7 +1,7 @@
 .container-fluid{
   padding-bottom: 50px;
   height: auto;
-  background-color:rgba(255, 255, 255, 0.774);
+  background-color:white;
   font-weight: 300;
   font-size: 16px;
 }
@@ -19,7 +19,7 @@ a{
   margin: 40px 0px;
 }
 .header{
-  color:brown;
+  color:red;
   outline: none;
 }
 .header:hover{
@@ -33,10 +33,10 @@ a{
   font-weight: 400;
 }
 .timeline-time{
-  font-size: 15px;
-  font-weight: 200px;
+  font-size: 20px;
+  font-weight: bold;
   font-style: italic;
-  color:rgb(168, 55, 55);
+  color:#d43933e5;
 }
 .bold{
   font-weight: 500;
@@ -50,18 +50,21 @@ a{
   text-align: center;
   margin: 5px;
   padding:10px 10px;
-  background-color:   rgb(49, 127, 172);
+  background-color: black;
 }
 .button-link:hover , .techs:hover{
   cursor: pointer;
 }
+
+
 @media screen and (min-width: 990px){
   .header-content {
     padding-left: 55px ;
   }
   .title{
-    font-size: 30px;
-    color:rgba(0, 0, 0, 0.623);
+    font-size: 35px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.85);
   }
   .container-fluid{
     padding-left: 10px;
@@ -84,26 +87,26 @@ a{
     content: '';
     position: absolute;
     height: 100%;
-    width: 1px;
-    background-color: rgb(182, 179, 179);
+    width: 0.5px;
+    background-color: rgba(0, 0, 0, 0.85);
     margin-left: -20px;
   }
   .timeline-item::before{
     content: '';
     position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: brown;
+    height: 15px;
+    width: 15px;
+    background-color: #d43933e5;
     margin-left: -25px;
   }
   .timeline-time.two{
     position: absolute;
-    left: -110px;
+    left: -130px;
     top: -5px;
   }
   .timeline-time.one{
     position: absolute;
-    left: -70px;
+    left: -80px;
     top: -5px;
   }
   .button-link{
@@ -111,15 +114,18 @@ a{
     width: 35%;
     text-align: center;
     padding:10px 10px;
-    background-color:  rgb(26, 72, 99);
+    background-color:  black;
   }
 }
+
+
 @media screen and (max-width: 990px)
 {
   .title{
     margin-top: 20px;
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.623);
+    font-weight: bold;
+    color:black;
     text-align: center;
   }
   .button-link{
@@ -127,7 +133,7 @@ a{
     width: 45%;
     text-align: center;
     padding:10px 10px;
-    background-color:  rgb(26, 72, 99);
+    background-color:  black;
   }
   .image1{
     width: 100%;

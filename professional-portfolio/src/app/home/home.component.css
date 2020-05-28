@@ -1,145 +1,168 @@
-.container-fluid
- {
-  padding-top:50px;
-  height: 100vh;
-  background-size: cover;
-  background-image: url("../../assets/home.jpg");
-}
-.hello-message-1{
+.hello-message-1 {
   width: 6em;
-  -webkit-animation: blinktextcurser 1s steps(50) 2 normal, typewriter 1.5s steps(30) 0.5s 1 normal both;
+  -webkit-animation: blinktextcurser 1s steps(50) 2 normal,
+    typewriter 1.5s steps(30) 0.5s 1 normal both;
   overflow: hidden;
   white-space: nowrap;
 }
-.hello-message-2{
-  width: 15em;
-  -webkit-animation:  blinktextcurser 1s steps(50) 2 2s normal, typewriter2 2s steps(30) 2s 1 normal both;
+.hello-message-2 {
+  width: 16em;
+  -webkit-animation: blinktextcurser 1s steps(50) 2 2s normal,
+    typewriter2 2s steps(30) 2s 1 normal both;
   overflow: hidden;
   white-space: nowrap;
 }
-.hello-message-3{
+.hello-message-3 {
   width: 12em;
-  -webkit-animation:blinktextcurser 1s steps(50) infinite 4s normal, typewriter3 2s steps(30) 4s 1 normal both;
+  -webkit-animation: blinktextcurser 1s steps(50) infinite 4s normal,
+    typewriter3 2s steps(30) 4s 1 normal both;
   overflow: hidden;
   white-space: nowrap;
 }
-@media screen and (min-width: 768px)
-{
-  .hello-message-1{
-    font-size: 50px;
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/newhome.jpg");
+    animation: background-changelaptop 10s alternate infinite;
+    animation-delay: 5s;
+  }
+  .hello-message-1 {
+    font-size: 60px;
+    font-weight: bold;
     padding-left: 50px;
   }
 
-  .hello-message-2{
+  .hello-message-2 {
     font-size: 35px;
     padding-left: 50px;
   }
-  .hello-message-3{
+  .hello-message-3 {
     font-size: 35px;
     padding-left: 50px;
   }
-  .link-1{
-    margin-top: 200px;
-  }
-  .link-2{
-    margin-top: 15px;
-  }
-  .button-link{
-    margin-left: 50px;
-  }
-
-}
-@media screen and (max-width: 768px)
-{
-  .hello-message-1{
-    font-size: 25px;
-    padding-left: 20px;
-  }
-  .hello-message-2{
-    font-size: 20px;
-    padding-left: 20px;
-  }
-  .hello-message-3{
-    font-size: 20px;
-    padding-left: 20px;
-  }
-  .link-1{
+  .link-1 {
     margin-top: 80px;
   }
-  .link-2{
+  .link-2 {
+    margin-top: 15px;
+  }
+  .button-link {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../assets/mobile.jpg");
+    animation: background-change 10s alternate infinite;
+    animation-delay: 5s;
+    -webkit-animation: background-change 10s alternate infinite;
+    -webkit-animation-delay: 5s;
+  }
+  .hello-message-1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .hello-message-2 {
+    font-size: 25px;
+    color: white;
+  }
+  .hello-message-3 {
+    font-size: 25px;
+    color: white;
+  }
+  .link-1 {
+    margin-top: 120px;
+  }
+  .link-2 {
     margin-top: 15px;
   }
 }
-.hello-message-1, .hello-message-3{
-  color:white;
-  font-weight: 500;
-}
-.hello-message-2{
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.692);
-}
-.button-link{
-  color:white;
+
+.button-link {
+  color: black;
   text-align: center;
-  border: solid 1px white;
   width: 200px;
+  background-color: white;
   padding: 10px;
-  transition: 1s;
+  transition: 0.5s;
 }
-.button-link:hover{
-  color:rgba(255, 0, 0, 0.425);
-  border:solid 2px rgba(255, 0, 0, 0.425);
-  width:180px;
+.button-link:hover {
+  background-color: black;
+  color: white;
+  width: 180px;
   cursor: pointer;
 }
-.link-1,.link-2{
+.link-1,
+.link-2 {
   animation-name: appear;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
 }
 
-@keyframes appear{
-  from{
+@keyframes appear {
+  from {
     opacity: 0;
-    width:120px;;
+    width: 120px;
   }
-  to{
+  to {
     opacity: 1;
-    width:200px;
+    width: 200px;
   }
 }
-@keyframes typewriter{
+@keyframes typewriter {
   from {
     width: 0px;
   }
-  to
-  {
+  to {
     width: 6em;
   }
 }
-@keyframes typewriter2{
+@keyframes typewriter2 {
   from {
     width: 0px;
   }
-  to
-  {
+  to {
     width: 15em;
   }
 }
-@keyframes typewriter3{
+@keyframes typewriter3 {
   from {
     width: 0px;
   }
-  to
-  {
+  to {
     width: 12em;
   }
 }
-@keyframes blinktextcurser{
+@keyframes blinktextcurser {
   from {
-     border-right: 0px;
+    border-right: 0px;
   }
-  to{
-    border-right: 1px solid white ;
+  to {
+    border-right: 1px solid transparent;
+  }
+}
+
+@keyframes background-change {
+  from {
+    background-image: url("../../assets/mobile.jpg");
+  }
+  to {
+    background-image: url("../../assets/mobilehome.jpg");
+  }
+}
+
+@keyframes background-changelaptop {
+  from {
+    background-image: url("../../assets/newhome.jpg");
+  }
+  to {
+    background-image: url("../../assets/home.jpg");
   }
 }

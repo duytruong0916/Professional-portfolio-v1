@@ -1,5 +1,4 @@
 .container-fluid{
-  margin-top: -25px;
   padding-bottom: 50px;
   height: auto;
   background-color:rgba(255, 255, 255, 0.774);
@@ -11,12 +10,13 @@
   .container-fluid{
     padding-left: 65px;
     float: left;
-    width: 85%;
+    width: 100%;
     font-size: 16px;
   }
   .title{
-    font-size: 40px;
-    color:rgba(0, 0, 0, 0.623);
+    font-size: 35px;
+    font-weight: bolder;
+    color:black;
   }
   .subtile{
     font-size: 30px;
@@ -25,23 +25,29 @@
 @media screen and (max-width: 768px){
   .title{
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.623);
+    color:black;
     text-align: center;
   }
   .subtile{
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 .title{
-  font-weight: 400;
+  font-weight: bold;
 }
 .bold{
   font-weight: 500;
 }
-.hightlight ,.subtile{
+.subtile{
   font-weight: 500;
-  color: rgb(184, 32, 32);
+  color: red;
 }
+
+.highlight {
+  font-style: italic;
+  font-size: 18px;
+};
+
 .italic{
   font-style: italic;
   font-size: 16px;
